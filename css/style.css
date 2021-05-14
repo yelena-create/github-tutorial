@@ -2,3 +2,19 @@ body {
   background-color: #fff);
   color: #2a2a2a;
 }
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
